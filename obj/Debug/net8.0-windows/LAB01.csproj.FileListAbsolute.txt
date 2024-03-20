@@ -23,3 +23,4 @@ D:\LTMCB\LAB01\obj\Debug\net8.0-windows\LAB01.bai6.resources
 D:\LTMCB\LAB01\obj\Debug\net8.0-windows\LAB01.bai7.resources
 D:\LTMCB\LAB01\obj\Debug\net8.0-windows\LAB01.bai8.resources
 D:\LTMCB\LAB01\obj\Debug\net8.0-windows\LAB01.bai9.resources
+D:\LTMCB\LAB01\obj\Debug\net8.0-windows\LAB01.sourcelink.json

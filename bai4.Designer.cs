@@ -49,7 +49,7 @@
             // lb
             // 
             lb.AutoSize = true;
-            lb.Location = new Point(71, 228);
+            lb.Location = new Point(71, 182);
             lb.Name = "lb";
             lb.Size = new Size(60, 20);
             lb.TabIndex = 1;
@@ -64,9 +64,10 @@
             // 
             // txtketqua
             // 
-            txtketqua.Location = new Point(71, 251);
+            txtketqua.Location = new Point(71, 205);
+            txtketqua.Multiline = true;
             txtketqua.Name = "txtketqua";
-            txtketqua.Size = new Size(570, 27);
+            txtketqua.Size = new Size(503, 75);
             txtketqua.TabIndex = 3;
             // 
             // button1
@@ -103,7 +104,7 @@
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(812, 335);
             Controls.Add(button3);
             Controls.Add(button2);
             Controls.Add(button1);

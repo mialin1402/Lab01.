@@ -3,11 +3,19 @@
   "WorkspaceRootPath": "D:\\LTMCB\\LAB01\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E7C2B438-271F-4CA4-973F-409E2912B21B}|LAB01.csproj|D:\\LTMCB\\LAB01\\bai4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{E7C2B438-271F-4CA4-973F-409E2912B21B}|LAB01.csproj|d:\\ltmcb\\lab01\\bai4.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7C2B438-271F-4CA4-973F-409E2912B21B}|LAB01.csproj|solutionrelative:bai4.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7C2B438-271F-4CA4-973F-409E2912B21B}|LAB01.csproj|d:\\ltmcb\\lab01\\bai4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{E7C2B438-271F-4CA4-973F-409E2912B21B}|LAB01.csproj|solutionrelative:bai4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E7C2B438-271F-4CA4-973F-409E2912B21B}|LAB01.csproj|d:\\ltmcb\\lab01\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{E7C2B438-271F-4CA4-973F-409E2912B21B}|LAB01.csproj|d:\\ltmcb\\lab01\\bai4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7C2B438-271F-4CA4-973F-409E2912B21B}|LAB01.csproj|solutionrelative:bai4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7C2B438-271F-4CA4-973F-409E2912B21B}|LAB01.csproj|D:\\LTMCB\\LAB01\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{E7C2B438-271F-4CA4-973F-409E2912B21B}|LAB01.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
@@ -82,26 +90,41 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "bai4.Designer.cs",
+              "DocumentMoniker": "D:\\LTMCB\\LAB01\\bai4.Designer.cs",
+              "RelativeDocumentMoniker": "bai4.Designer.cs",
+              "ToolTip": "D:\\LTMCB\\LAB01\\bai4.Designer.cs",
+              "RelativeToolTip": "bai4.Designer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-20T16:16:36.813Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "bai9.cs [Design]",
-              "DocumentMoniker": "D:\\LTMCB\\LAB01\\bai9.cs",
-              "RelativeDocumentMoniker": "bai9.cs",
-              "ToolTip": "D:\\LTMCB\\LAB01\\bai9.cs [Design]",
-              "RelativeToolTip": "bai9.cs [Design]",
+              "DocumentIndex": 2,
+              "Title": "bai4.cs",
+              "DocumentMoniker": "D:\\LTMCB\\LAB01\\bai4.cs",
+              "RelativeDocumentMoniker": "bai4.cs",
+              "ToolTip": "D:\\LTMCB\\LAB01\\bai4.cs",
+              "RelativeToolTip": "bai4.cs",
+              "ViewState": "AQIAAEoAAAAAAAAAAADwv2oAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-13T15:23:32.312Z"
+              "WhenOpened": "2024-03-20T14:55:26.257Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "bai7.cs [Design]",
               "DocumentMoniker": "D:\\LTMCB\\LAB01\\bai7.cs",
               "RelativeDocumentMoniker": "bai7.cs",
@@ -112,7 +135,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "bai6.cs",
               "DocumentMoniker": "D:\\LTMCB\\LAB01\\bai6.cs",
               "RelativeDocumentMoniker": "bai6.cs",
@@ -124,7 +147,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "bai6.cs [Design]",
               "DocumentMoniker": "D:\\LTMCB\\LAB01\\bai6.cs",
               "RelativeDocumentMoniker": "bai6.cs",
@@ -135,7 +158,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "bai5.cs",
               "DocumentMoniker": "D:\\LTMCB\\LAB01\\bai5.cs",
               "RelativeDocumentMoniker": "bai5.cs",
@@ -147,19 +170,18 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "D:\\LTMCB\\LAB01\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
               "ToolTip": "D:\\LTMCB\\LAB01\\Form1.cs [Design]",
               "RelativeToolTip": "Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-12T17:47:30.782Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-03-12T17:47:30.782Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "Form1.cs",
               "DocumentMoniker": "D:\\LTMCB\\LAB01\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
@@ -171,19 +193,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "bai7.cs",
-              "DocumentMoniker": "D:\\LTMCB\\LAB01\\bai7.cs",
-              "RelativeDocumentMoniker": "bai7.cs",
-              "ToolTip": "D:\\LTMCB\\LAB01\\bai7.cs",
-              "RelativeToolTip": "bai7.cs",
-              "ViewState": "AQIAADEAAAAAAAAAAAAmwFIAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-13T14:40:20.637Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "bai4.cs [Design]",
               "DocumentMoniker": "D:\\LTMCB\\LAB01\\bai4.cs",
               "RelativeDocumentMoniker": "bai4.cs",
@@ -195,7 +205,30 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
+              "Title": "bai9.cs [Design]",
+              "DocumentMoniker": "D:\\LTMCB\\LAB01\\bai9.cs",
+              "RelativeDocumentMoniker": "bai9.cs",
+              "ToolTip": "D:\\LTMCB\\LAB01\\bai9.cs [Design]",
+              "RelativeToolTip": "bai9.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-13T15:23:32.312Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "bai7.cs",
+              "DocumentMoniker": "D:\\LTMCB\\LAB01\\bai7.cs",
+              "RelativeDocumentMoniker": "bai7.cs",
+              "ToolTip": "D:\\LTMCB\\LAB01\\bai7.cs",
+              "RelativeToolTip": "bai7.cs",
+              "ViewState": "AQIAADEAAAAAAAAAAAAmwFIAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-13T14:40:20.637Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "bai9.cs",
               "DocumentMoniker": "D:\\LTMCB\\LAB01\\bai9.cs",
               "RelativeDocumentMoniker": "bai9.cs",
@@ -207,7 +240,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "bai8.cs",
               "DocumentMoniker": "D:\\LTMCB\\LAB01\\bai8.cs",
               "RelativeDocumentMoniker": "bai8.cs",
@@ -219,7 +252,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "Form1.Designer.cs",
               "DocumentMoniker": "D:\\LTMCB\\LAB01\\Form1.Designer.cs",
               "RelativeDocumentMoniker": "Form1.Designer.cs",
@@ -227,12 +260,11 @@
               "RelativeToolTip": "Form1.Designer.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-12T17:56:28.603Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-12T17:56:28.603Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 16,
               "Title": "bai1.cs",
               "DocumentMoniker": "D:\\LTMCB\\LAB01\\bai1.cs",
               "RelativeDocumentMoniker": "bai1.cs",
@@ -244,7 +276,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
               "Title": "bai3.cs",
               "DocumentMoniker": "D:\\LTMCB\\LAB01\\bai3.cs",
               "RelativeDocumentMoniker": "bai3.cs",
@@ -256,7 +288,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "bai1.cs [Design]",
               "DocumentMoniker": "D:\\LTMCB\\LAB01\\bai1.cs",
               "RelativeDocumentMoniker": "bai1.cs",
@@ -267,7 +299,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 17,
               "Title": "bai3.cs [Design]",
               "DocumentMoniker": "D:\\LTMCB\\LAB01\\bai3.cs",
               "RelativeDocumentMoniker": "bai3.cs",
@@ -278,7 +310,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 18,
               "Title": "bai2.cs",
               "DocumentMoniker": "D:\\LTMCB\\LAB01\\bai2.cs",
               "RelativeDocumentMoniker": "bai2.cs",
@@ -290,7 +322,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 19,
               "Title": "bai2.cs [Design]",
               "DocumentMoniker": "D:\\LTMCB\\LAB01\\bai2.cs",
               "RelativeDocumentMoniker": "bai2.cs",

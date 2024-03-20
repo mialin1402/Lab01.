@@ -30,66 +30,81 @@ namespace LAB01
 
         private void button1_Click(object sender, EventArgs e)
         {
-            if (long.TryParse(txtnhap.Text.Trim(), out long soNhap) && soNhap >= 0)
+            string txtnhapText = txtnhap.Text.Trim();
+            if (String.IsNullOrEmpty(txtnhapText))
             {
-                string chuoiChu = ChuyenSoThanhChu(soNhap);
+                MessageBox.Show("Vui lòng nhập số nguyên");
+                return;
+            }
 
-                txtketqua.Text = chuoiChu;
-            }
-            else
+            long num;
+            if (!long.TryParse(txtnhapText, out num))
             {
-                MessageBox.Show("Vui lòng nhập số nguyên dương có tối đa 12 chữ số.");
+                MessageBox.Show("Sai định dạng");
+                return;
             }
+
+            string ketqua = "";
+            if (num < 0)
+            {
+                ketqua += "Âm ";
+                num *= -1;
+            }
+
+            if (num == 0)
+            {
+                txtketqua.Text = "Không";
+                return;
+            }
+
+            if (num >= 1000000000)
+            {
+                ketqua = basecase(num / 1000000000, ketqua) + "Tỷ ";
+                num %= 1000000000;
+            }
+
+            if (num >= 1000000)
+            {
+                ketqua = basecase(num / 1000000, ketqua) + "Triệu ";
+                num %= 1000000;
+            }
+
+            if (num >= 1000)
+            {
+                ketqua = basecase(num / 1000, ketqua) + "Nghìn ";
+                num %= 1000;
+            }
+
+            if (num > 0)
+            {
+                ketqua = basecase(num, ketqua);
+            }
+
+            txtketqua.Text = ketqua.Trim();
         }
-        private string ChuyenSoThanhChu(long so)
+
+        private string basecase(long num, string ketqua)
         {
-            if (so == 0)
+            if (num > 99)
             {
-                return "Không";
+                ketqua += $"{DocSoHaiChuSo((int)(num / 100))} Trăm ";
             }
 
-            string[] donVi = { "", "nghìn", "triệu", "tỷ" };
-            string chuoiChu = "";
-            int i = 0;
-
-            while (so > 0)
+            if (num > 9)
             {
-                int soHienTai = (int)(so % 1000);
-                if (soHienTai > 0)
-                {
-                    if (chuoiChu != "")
-                    {
-                        chuoiChu = " " + chuoiChu;
-                    }
-                    chuoiChu = DocSoHaiChuSo(soHienTai) + " " + donVi[i] + chuoiChu;
-                }
-                so /= 1000;
-                i++;
+                ketqua += $"{DocSoHaiChuSo((int)((num % 100) / 10))} Mươi ";
             }
 
-            return chuoiChu.Trim();
+            ketqua += $"{DocSoHaiChuSo((int)(num % 10))} ";
+
+            return ketqua;
         }
 
         private string DocSoHaiChuSo(int so)
         {
-            string[] chuSo1Den9 = { "", "một", "hai", "ba", "bốn", "năm", "sáu", "bảy", "tám", "chín" };
-            string[] hangChuc = { "", "mười", "hai mươi", "ba mươi", "bốn mươi", "năm mươi", "sáu mươi", "bảy mươi", "tám mươi", "chín mươi" };
+            string[] chuSo1Den9 = { "", "Một", "Hai", "Ba", "Bốn", "Năm", "Sáu", "Bảy", "Tám", "Chín" };
 
-            int donVi = so % 10;
-            int hangChucIndex = (so / 10) % 10;
-
-            string chuoiSo = chuSo1Den9[donVi];
-
-            if (hangChucIndex > 1)
-            {
-                chuoiSo = hangChuc[hangChucIndex] + " " + chuoiSo;
-            }
-            else if (hangChucIndex == 1)
-            {
-                chuoiSo = hangChuc[hangChucIndex] + chuoiSo.Substring(1);
-            }
-
-            return chuoiSo;
+            return chuSo1Den9[so];
         }
     }
     }
